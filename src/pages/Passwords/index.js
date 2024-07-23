@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import React, { useState, useEffect } from "react";
 import { useIsFocused } from "@react-navigation/native";
 import useStorage from "../../hooks/useStorage";
-import PasswordItem from "./components/PasswordItem";
+import PasswordItem from "./components/passwordItem";
 
 export default function Passwords() {
     const [listPasswords, setListPasswords] = useState([]);

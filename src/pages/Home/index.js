@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity, Modal } from "react-native";
 import Slider from "@react-native-community/slider";
-import ModalPassword from "./components/ModalPassword";
+import ModalPassword from "../../components/modal";
 
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
